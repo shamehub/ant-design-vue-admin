@@ -7,6 +7,7 @@
         collapsible
         :theme="navTheme"
         v-if="navLayout === 'left'"
+        width="256px"
       >
         <div class="logo">Ant Design Vue Admin</div>
         <SiderMenu />
